@@ -5,7 +5,6 @@
 header {
   background: #888;
   height: 95px;
-  width: 960px;
 }
 
 nav {
@@ -94,10 +93,17 @@ article p {
 article button {
   height: 45px;
   width: 160px;
+  transition: 350ms;
+}
+
+article button:hover {
+  background: #222;
+  color: #eee;
+  transition: 350ms;
+
 }
 
 footer {
   height: 120px;
   background: #888;
-  width: 960px;
 }
