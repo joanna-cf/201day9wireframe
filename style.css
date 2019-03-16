@@ -3,7 +3,7 @@
 }
 
 header {
-  background: #888;
+  background: rgb(80, 79, 79);
   height: 95px;
 }
 
@@ -28,6 +28,8 @@ nav > ul > li {
   line-height: 70px;
   margin-right: 70px;
   font-size: 1.3em;
+  font-family: sans-serif;
+  color: grey;
 }
 
 main {
@@ -42,13 +44,7 @@ main > :first-child {
 
 main > ul li {
   float: left;
-  /* margin-right: 30px; */
 }
-/* 
-main > ul li {
-  overflow: hidden;
-  width: 300px;
-} */
 
 main > ul li:not(:last-child){
   margin-right: 30px;
@@ -75,6 +71,7 @@ article > section {
 h2 {
   font-size: 1.3em;
   font-weight: bold;
+  font-family: sans-serif;
 }
 
 article h2 {
@@ -85,6 +82,7 @@ article p {
   font-style: italic;
   font-weight: 400;
   font-size: 1.2em;
+  font-family: sans-serif;
   height: 315px;
   overflow: hidden;
   margin-bottom: 10px;
@@ -105,5 +103,5 @@ article button:hover {
 
 footer {
   height: 120px;
-  background: #888;
+  background: rgb(80, 79, 79);
 }
